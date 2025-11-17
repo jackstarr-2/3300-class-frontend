@@ -10,7 +10,7 @@ app.config["SECRET_KEY"] = "fjhasngojipklwhn9fgvjn"
 CORS(app)
 
 # Get this URL from the Azure Overview page of your API web app
-api_url = "starr-frontend-westeurope-gbg6cdfycbahbzf8.canadacentral-01.azurewebsites.net"  # base url for API endpoints
+api_url = "https://starr-api-westeurope-bsf8hhd5bkevhkgq.westeurope-01.azurewebsites.net/predict"  # base url for API endpoints
 
 
 # main index page route
